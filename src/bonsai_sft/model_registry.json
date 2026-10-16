@@ -1,0 +1,497 @@
+{
+  "models": {
+    "bonsai_1p7_d4": {
+      "files": [
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "added_tokens.json",
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "size": 707
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "chat_template.jinja",
+          "sha256": "30a75d10e60b57e2f260420163dd59720dacf9f63b9a8de070d65dd80a7b30f7",
+          "size": 4063
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "config.json",
+          "sha256": "b15d4cb1499e31c084dc40d192243665a88b38130f47b4a4ee67912fa5e44a41",
+          "size": 1546
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "generation_config.json",
+          "sha256": "b8b7af76b5b2b0eac2aea93e402bef4eefb7753af7297cd0c3274ba11473b948",
+          "size": 279
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "merges.txt",
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "size": 1671853
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00001-of-00002.safetensors",
+          "sha256": "a42be9bc4637179a75a939b2bd05aa1ab2cff37d3a76374ade1a004671e3dd20",
+          "size": 2156502288
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00002-of-00002.safetensors",
+          "sha256": "01fe732625b8141e9891d229c93f539f5ead80d8bcf886dc1b1c3cc803670e72",
+          "size": 1283589496
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "model.safetensors.index.json",
+          "sha256": "6e19021b4e8e230951c78594ed1db30465e9c0b5a58760dd00ab830cb1366a30",
+          "size": 25583
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "sdlm_config.json",
+          "sha256": "aaef1b1d6efcef4a01c1b1ebf2beae0f100d812ffa60549f91b68113dac1235b",
+          "size": 114
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "special_tokens_map.json",
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "size": 613
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer.json",
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "size": 11422654
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer_config.json",
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+          "size": 5404
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size": 2776833
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "LICENSE",
+          "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+          "size": 10174
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "NOTICE.txt",
+          "sha256": "0458cf19671f24d21121422f771b19dccda75152b9fbb95c518b151ece0a04a3",
+          "size": 416
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "README.md",
+          "sha256": "0c02ac8c186fa06ca6d8f57394226372fae08e166e8a1e01da62ed54f7a25b3b",
+          "size": 1530
+        }
+      ],
+      "repo_id": "VCLab-PolyU/BitMTP-Bonsai-1.7B-D4",
+      "revision": "c0d37f321db4926c76fb8b8ca4c216b5b54edd86"
+    },
+    "bonsai_1p7_d8": {
+      "files": [
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "added_tokens.json",
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "size": 707
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "chat_template.jinja",
+          "sha256": "30a75d10e60b57e2f260420163dd59720dacf9f63b9a8de070d65dd80a7b30f7",
+          "size": 4063
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "config.json",
+          "sha256": "2d04101f843543ee765e3344bf9ff4a77342cac934dddc88f1d495d976302559",
+          "size": 1546
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "generation_config.json",
+          "sha256": "b8b7af76b5b2b0eac2aea93e402bef4eefb7753af7297cd0c3274ba11473b948",
+          "size": 279
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "merges.txt",
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "size": 1671853
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00001-of-00002.safetensors",
+          "sha256": "828055e9c275228c5686ccbfdb9ba1ad704b626717f0525a6c0a3dbc3926a48d",
+          "size": 2156502288
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00002-of-00002.safetensors",
+          "sha256": "30a5cc6d7bb2cf2f4875dffce8a2f3dd315f5c355e3e4e2cb5deb81895b7b8f9",
+          "size": 1283589496
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "model.safetensors.index.json",
+          "sha256": "6e19021b4e8e230951c78594ed1db30465e9c0b5a58760dd00ab830cb1366a30",
+          "size": 25583
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "sdlm_config.json",
+          "sha256": "cbc67a1ff4c3dce837794c5f04cda4b5de7d4e3a030e855f6797d0005fdb5dcb",
+          "size": 114
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "special_tokens_map.json",
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "size": 613
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer.json",
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "size": 11422654
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer_config.json",
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+          "size": 5404
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size": 2776833
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "LICENSE",
+          "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+          "size": 10174
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "NOTICE.txt",
+          "sha256": "0458cf19671f24d21121422f771b19dccda75152b9fbb95c518b151ece0a04a3",
+          "size": 416
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "README.md",
+          "sha256": "4b1de3c3811d81738de2dba53f6d0d98fd015a1201b520e380a64dd0be9419db",
+          "size": 1530
+        }
+      ],
+      "repo_id": "VCLab-PolyU/BitMTP-Bonsai-1.7B-D8",
+      "revision": "ced2b019a37c05b436bb7ac2ead0e902574aee17"
+    },
+    "bonsai_1p7_sft": {
+      "files": [
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "added_tokens.json",
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "size": 707
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "chat_template.jinja",
+          "sha256": "30a75d10e60b57e2f260420163dd59720dacf9f63b9a8de070d65dd80a7b30f7",
+          "size": 4063
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "config.json",
+          "sha256": "8ce26cd1e16b68a2d260be8a626e74023f097655eee339ca518993f64102e1bf",
+          "size": 1472
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "generation_config.json",
+          "sha256": "b8b7af76b5b2b0eac2aea93e402bef4eefb7753af7297cd0c3274ba11473b948",
+          "size": 279
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "merges.txt",
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "size": 1671853
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model.safetensors",
+          "sha256": "f51fdd7cc227da2b3ccf452fd30b37f6ff909fa8837613f11021c0dbb058e00b",
+          "size": 4061328376
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "special_tokens_map.json",
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "size": 613
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer.json",
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "size": 11422654
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer_config.json",
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+          "size": 5404
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size": 2776833
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "LICENSE",
+          "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+          "size": 10174
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "NOTICE.txt",
+          "sha256": "0458cf19671f24d21121422f771b19dccda75152b9fbb95c518b151ece0a04a3",
+          "size": 416
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "README.md",
+          "sha256": "72b9828f8f664f9128de676a67cdc61d9398472b5b76e1ef2c8998031efdc8b7",
+          "size": 1478
+        }
+      ],
+      "repo_id": "VCLab-PolyU/BitMTP-Bonsai-1.7B-SFT",
+      "revision": "77102b85355ea02416658aabb4b73abcfc4e7bcb"
+    },
+    "bonsai_4b_d8": {
+      "files": [
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "added_tokens.json",
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "size": 707
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "chat_template.jinja",
+          "sha256": "30a75d10e60b57e2f260420163dd59720dacf9f63b9a8de070d65dd80a7b30f7",
+          "size": 4063
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "config.json",
+          "sha256": "b3b9f0248f296842c904fccd33f2bd68690ca98606d4b14bf76118551af3b36e",
+          "size": 1722
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "generation_config.json",
+          "sha256": "b8b7af76b5b2b0eac2aea93e402bef4eefb7753af7297cd0c3274ba11473b948",
+          "size": 279
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "merges.txt",
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "size": 1671853
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00001-of-00003.safetensors",
+          "sha256": "1959905cb10f09c540459a161b62a44b35b564a50bae1705146fea7cee1f8e02",
+          "size": 776545416
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00002-of-00003.safetensors",
+          "sha256": "fc9f768b368acb585ee04a32d769b266d582227c633a3f0ca8b7c8e20caf2b11",
+          "size": 4996754456
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00003-of-00003.safetensors",
+          "sha256": "d27ba0fb82a5cf988d32acc97338646fb69930b37e20a88106e8ce596d6434f5",
+          "size": 2270315016
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "model.safetensors.index.json",
+          "sha256": "cb65df7905cca567cb9862616bbe3ca5bc73c2b233b72435e11ec414569470a6",
+          "size": 32855
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "sdlm_config.json",
+          "sha256": "cbc67a1ff4c3dce837794c5f04cda4b5de7d4e3a030e855f6797d0005fdb5dcb",
+          "size": 114
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "special_tokens_map.json",
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "size": 613
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer.json",
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "size": 11422654
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer_config.json",
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+          "size": 5404
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size": 2776833
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "LICENSE",
+          "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+          "size": 10174
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "NOTICE.txt",
+          "sha256": "0234e8eefadc54f307b7a86fb905ce23a92aabd82644c11d125e0b507168b9d9",
+          "size": 412
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "README.md",
+          "sha256": "cd76b5b259a2c985df1e616b5c4c99b732de915915241ba3fee78f5761848af9",
+          "size": 1408
+        }
+      ],
+      "repo_id": "VCLab-PolyU/BitMTP-Bonsai-4B-D8",
+      "revision": "2a55a30441f00d2abf64d2cd2feb3d76c42a7295"
+    },
+    "bonsai_4b_sft": {
+      "files": [
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "added_tokens.json",
+          "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+          "size": 707
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "chat_template.jinja",
+          "sha256": "30a75d10e60b57e2f260420163dd59720dacf9f63b9a8de070d65dd80a7b30f7",
+          "size": 4063
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "config.json",
+          "sha256": "74209ed9aaf6ce61f850b4c068d0a23586ba5d001da31312bd0f9b1cbce696ef",
+          "size": 1648
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "generation_config.json",
+          "sha256": "b8b7af76b5b2b0eac2aea93e402bef4eefb7753af7297cd0c3274ba11473b948",
+          "size": 279
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "merges.txt",
+          "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+          "size": 1671853
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00001-of-00002.safetensors",
+          "sha256": "74b226a494dd4bac706570a8a100f27cd3171e0bb4ec603689ef7e57e9241cd8",
+          "size": 4965848320
+        },
+        {
+          "kind": "weights",
+          "path_in_repo": "model-00002-of-00002.safetensors",
+          "sha256": "2dcd22a9925c65b410a9fa4012e5b5c8ee780923c6cbaebf1367cade2386fd3b",
+          "size": 3854312104
+        },
+        {
+          "kind": "config",
+          "path_in_repo": "model.safetensors.index.json",
+          "sha256": "9ab53f067607a2a32ed61cd353f73111d45ea03b737b2b75ddce4292b83012d4",
+          "size": 32913
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "special_tokens_map.json",
+          "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+          "size": 613
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer.json",
+          "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+          "size": 11422654
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "tokenizer_config.json",
+          "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0",
+          "size": 5404
+        },
+        {
+          "kind": "tokenizer",
+          "path_in_repo": "vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "size": 2776833
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "LICENSE",
+          "sha256": "69849221bfb90053de2134ef5e6d540287b4b98062326492f1f96f5da685524b",
+          "size": 10174
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "NOTICE.txt",
+          "sha256": "0234e8eefadc54f307b7a86fb905ce23a92aabd82644c11d125e0b507168b9d9",
+          "size": 412
+        },
+        {
+          "kind": "metadata",
+          "path_in_repo": "README.md",
+          "sha256": "410a38597dfb558fd07687ff066ede424721e9272653208fd931eea12f95dc95",
+          "size": 1356
+        }
+      ],
+      "repo_id": "VCLab-PolyU/BitMTP-Bonsai-4B-SFT",
+      "revision": "d6da2ee1c376e206acfc22f769c75d9bf228a450"
+    }
+  },
+  "schema": "bitmtp_model_registry_v1"
+}

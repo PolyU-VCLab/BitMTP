@@ -1,0 +1,10 @@
+# Install CUDA-enabled Jetson PyTorch separately; do not replace it with a desktop wheel.
+setuptools==77.0.3
+wheel==0.45.1
+packaging==24.2
+numpy==1.26.4
+transformers==4.57.6
+tokenizers==0.22.2
+huggingface-hub==0.36.0
+safetensors==0.7.0
+einops==0.8.2

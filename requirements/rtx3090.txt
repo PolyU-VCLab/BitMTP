@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+xformers==0.0.28.post3
+transformers==4.49.0
+triton==3.1.0
+numpy==2.2.6
+safetensors==0.7.0
+einops==0.8.2
+lm-eval==0.4.11
+evalplus==0.3.1
+datasets==2.21.0
+pyarrow==18.1.0
+sympy==1.13.1

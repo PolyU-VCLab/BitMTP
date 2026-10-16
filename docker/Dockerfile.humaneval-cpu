@@ -1,0 +1,16 @@
+FROM python:3.10.18-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 \
+    XDG_CACHE_HOME=/tmp/cache OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+    MKL_NUM_THREADS=1 TOKENIZERS_PARALLELISM=false
+WORKDIR /app
+COPY requirements/humaneval-cpu.txt /app/requirements.txt
+# EvalPlus's full dependency list includes model-generation backends. This image
+# installs only its CPU scoring/import dependencies, not BitMTP or model runtimes.
+RUN pip install --no-cache-dir -r requirements.txt \
+    && pip install --no-cache-dir --no-deps evalplus==0.3.1
+COPY benchmarks/__init__.py benchmarks/scoring.py benchmarks/score_humaneval.py \
+     benchmarks/profiles.py benchmarks/contracts.py benchmarks/task_dependencies.py /app/benchmarks/
+RUN XDG_CACHE_HOME=/opt/cache python -c "import evalplus.evaluate; from benchmarks.scoring import load_humaneval; load_humaneval(); import importlib.util; assert importlib.util.find_spec('torch') is None" \
+    && chmod -R a+rX /opt/cache /app
+# The image holds the fixed dataset; writable ground-truth caches stay in tmpfs.
+ENTRYPOINT ["/bin/sh", "-c", "mkdir -p /tmp/cache && cp -r /opt/cache/evalplus /tmp/cache/ && exec python -m benchmarks.score_humaneval \"$@\"", "score-humaneval"]

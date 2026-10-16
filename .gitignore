@@ -1,0 +1,55 @@
+# User-provided data; release parameter files are exceptions
+data/
+datasets/
+*.jsonl
+*.json
+!configs/training/*.json
+!configs/evaluation/*.json
+!src/bonsai_sft/model_registry.json
+
+# Credentials and local authentication
+.env
+.env.*
+!.env.example
+.ssh/
+*.pem
+*.key
+credentials.json
+token.json
+secrets/
+
+# Environments, caches and build products
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.a
+
+# Model, data and run outputs
+weights/
+checkpoints/
+outputs/
+results/
+audit/
+internal/
+logs/
+wandb/
+*.log
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Personal editor state
+.idea/
+.vscode/

@@ -1,0 +1,17 @@
+{
+  "family": "bonsai",
+  "model_size": "1p7b",
+  "checkpoint_role": "sft",
+  "reference_model_id": "bonsai_1p7b_sft",
+  "device_profile": "rtx3090",
+  "block_size": null,
+  "mode": "ar",
+  "threshold": null,
+  "min_chain": null,
+  "draft_projection": "native",
+  "verification": "not_used",
+  "lm_eval_version": "0.4.11",
+  "replay_widths": [1],
+  "segment_ladder": [256, 1024, 4096],
+  "temperature": 0.0
+}

@@ -1,0 +1,21 @@
+include README.md LICENSE THIRD_PARTY_NOTICES.md
+recursive-include licenses *.txt
+recursive-include requirements *.txt
+recursive-include docs *.md
+recursive-include docs/assets *.png
+recursive-include configs/training *.json
+recursive-include configs/evaluation *.json
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include src *.cu *.h *.sh *.md
+recursive-include benchmarks *.py
+global-exclude *.py[cod] *.so *.log .DS_Store *.jsonl
+prune data
+prune datasets
+prune build
+prune dist
+prune audit
+prune internal
+prune results
+prune outputs
+prune logs

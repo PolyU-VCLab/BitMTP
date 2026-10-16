@@ -1,0 +1,29 @@
+{
+  "family": "bonsai",
+  "model_size": "4b",
+  "checkpoint_role": "mtp",
+  "reference_model_id": "bonsai_4b_mtp_d8",
+  "device_profile": "h20",
+  "block_size": 8,
+  "mode": "hybrid",
+  "threshold": 0.9,
+  "min_chain": 6,
+  "draft_projection": "fp8",
+  "verification": "token_id_equality",
+  "lm_eval_version": "0.4.9.2",
+  "replay_widths": [
+    1,
+    8,
+    9,
+    10,
+    12,
+    16,
+    17
+  ],
+  "segment_ladder": [
+    256,
+    1024,
+    4096
+  ],
+  "temperature": 0.0
+}

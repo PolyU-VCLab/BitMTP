@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitmtp"
+version = "0.1.0.dev1"
+description = "Multi-token prediction and CUDA runtimes for low-bit language models"
+readme = "README.md"
+license = "Apache-2.0 AND MIT AND BSD-3-Clause"
+license-files = ["LICENSE", "licenses/*.txt", "THIRD_PARTY_NOTICES.md"]
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.5,<2.11; platform_system != 'Linux' or platform_machine != 'aarch64'",
+  "torch>=2.5.0a0,<2.11; platform_system == 'Linux' and platform_machine == 'aarch64'",
+  "transformers>=4.49,<5",
+  "numpy>=2.2,<3; platform_system != 'Linux' or platform_machine != 'aarch64'",
+  "numpy>=1.26.4,<2; platform_system == 'Linux' and platform_machine == 'aarch64'",
+  "safetensors>=0.7,<1",
+  "einops>=0.8,<1",
+  "huggingface-hub>=0.34,<1",
+]
+
+[project.optional-dependencies]
+runtime = ["xformers>=0.0.28.post3,<0.0.35"]
+training = ["torch>=2.10,<2.11", "transformers==4.57.6", "accelerate==1.12.0", "deepspeed==0.18.3", "datasets>=3,<5", "sentencepiece>=0.2,<1"]
+evaluation = ["lm-eval>=0.4.9.2,<0.5", "evalplus==0.3.1", "datasets>=2.21,<5"]
+
+[tool.setuptools]
+package-dir = {"" = "src", "benchmarks" = "benchmarks"}
+packages = ["bonsai_sft", "bonsai_sft.gpu", "bonsai_sft.gpu.q1g128_kernels", "bonsai_sft.gpu.t2g128_kernels", "benchmarks"]
+include-package-data = true
+
+[tool.setuptools.package-data]
+bonsai_sft = ["model_registry.json", "gpu/q1g128_kernels/*.cu", "gpu/q1g128_kernels/*.h", "gpu/q1g128_kernels/*.sh", "gpu/t2g128_kernels/*.cu", "gpu/t2g128_kernels/*.h", "gpu/t2g128_kernels/*.sh"]
