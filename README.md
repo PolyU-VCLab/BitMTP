@@ -11,7 +11,7 @@ The Hong Kong Polytechnic University
 
 </div>
 
-**Making low-bit LLMs faster with MTP!**
+**BitMTP makes low-bit LLMs faster: 2×+ decoding speedups with multi-token prediction across server, consumer, and edge GPUs.**
 
 ## 📝 Content
 
