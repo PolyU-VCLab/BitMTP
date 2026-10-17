@@ -7,7 +7,7 @@
 Ning Zhang · Shihao Wang · Jinrui Zhang · Chaodong Xiao · Lei Zhang<br>
 The Hong Kong Polytechnic University
 
-**[NeurIPS 2026](https://neurips.cc/virtual/2026/loc/sydney/poster/154757)** · [Paper](https://openreview.net/forum?id=BBFcLluA5v) · [Models](#models) · [Quick start](#quick-start) · [Jetson Orin](docs/orin.md) · [Training](docs/training.md) · [Evaluation](docs/evaluation.md)
+**[NeurIPS 2026](https://neurips.cc/virtual/2026/loc/sydney/poster/154757)** · [Paper](https://openreview.net/forum?id=BBFcLluA5v) · [Models](#models) · [Quick start](#quick-start)
 
 </div>
 
