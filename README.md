@@ -11,11 +11,36 @@ The Hong Kong Polytechnic University
 
 </div>
 
-BitMTP accelerates ternary LLM generation through parallel multi-token prediction, without a separate draft model. This repository provides Bonsai training, model conversion, and low-bit CUDA inference for H20, RTX 3090, and Jetson Orin NX.
+BitMTP accelerates ternary LLM generation through parallel multi-token prediction, without a separate draft model.
+
+## 📝 Content
+
+- [News](#news)
+- [Overview](#overview)
+- [Models](#models)
+- [Quick start](#quick-start)
+- [Documentation](#documentation)
+- [Repository layout](#repository-layout)
+- [Acknowledgements and licenses](#acknowledgements-and-licenses)
+
+<a id="news"></a>
+
+## 🔥 News
+
+- **2026.10** 🎉 We release the [BitMTP code](https://github.com/PolyU-VCLab/BitMTP) and [Bonsai checkpoints](#models).
+- **2026.09** 🎉 BitMTP has been accepted to [**NeurIPS 2026**](https://neurips.cc/virtual/2026/loc/sydney/poster/154757)!
+
+<a id="overview"></a>
+
+## ✨ Overview
+
+BitMTP couples multi-token prediction with ternary model execution. Its CUDA runtime uses width-specialized kernels and shared-KV graph replay for multi-token decoding. This repository provides Bonsai training, model conversion, and low-bit inference for H20, RTX 3090, and Jetson Orin NX.
 
 ![BitMTP: joint training, decoding policies, and the shared-KV runtime.](docs/assets/overview.png)
 
-## Models
+<a id="models"></a>
+
+## 🤗 Models
 
 This repository provides the Bonsai implementation with packed T2-g128 execution. Model checkpoints and their matching tokenizers are hosted on Hugging Face.
 
@@ -31,7 +56,9 @@ H20 and RTX 3090 evaluation profiles cover GSM8K and HumanEval+. The [Jetson Ori
 
 Convert the QAT checkpoints with BitMTP before low-bit inference.
 
-## Quick start
+<a id="quick-start"></a>
+
+## 🚀 Quick start
 
 ### Install
 
@@ -77,7 +104,10 @@ python -m bonsai_sft.gpu.run_generation \
 
 For Bonsai-1.7B D4, use D4 weights, `--block-size 4`, and `--min-chain 3`. See [generation](docs/usage.md) for all decoding modes.
 
-## Training and evaluation
+<a id="training-and-evaluation"></a>
+<a id="documentation"></a>
+
+## 📖 Documentation
 
 | Task | Guide |
 | --- | --- |
@@ -90,7 +120,7 @@ Training examples are in `configs/training/`, and evaluation profiles are in `co
 ## Repository layout
 
 ```text
-src/bonsai_sft/      Training, model export, and CUDA decoding
+src/bonsai_sft/       Training, model export, and CUDA decoding
 configs/             Training and evaluation settings
 benchmarks/          GSM8K and HumanEval+ evaluation
 scripts/             Training launcher
