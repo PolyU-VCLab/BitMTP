@@ -11,7 +11,7 @@ The Hong Kong Polytechnic University
 
 </div>
 
-BitMTP accelerates ternary LLM generation through parallel multi-token prediction, without a separate draft model.
+**Making low-bit LLMs faster with MTP!**
 
 ## 📝 Content
 
@@ -120,7 +120,7 @@ Training examples are in `configs/training/`, and evaluation profiles are in `co
 ## Repository layout
 
 ```text
-src/bonsai_sft/       Training, model export, and CUDA decoding
+src/bonsai_sft/      Training, model export, and CUDA decoding
 configs/             Training and evaluation settings
 benchmarks/          GSM8K and HumanEval+ evaluation
 scripts/             Training launcher
